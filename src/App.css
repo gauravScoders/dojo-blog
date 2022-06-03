@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  /* width: 1280px;
+  height: 720px; */
+
+  /* Shell */
+
+  background: #FFFCF1;
+  font-family: 'Fredoka One', cursive;
+}
+
+.hero-heading {
+  /* position: absolute;
+    width: 289px;
+    height: 83px;
+    left: 546px;
+    top: 165px; */
+
+  font-family: 'Fredoka';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 73px;
+
+  /* Dark Green */
+
+  color: #002C00;
+}
+
+
+.para-content {
+  /* position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: -800%;
+   */
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+
+  /* Dark Green */
+
+  color: #002C00;
+}
+
+.txt-bold {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+
+  /* Dark Green */
+
+  color: #002C00;
+}
+
+.main-container {
+display: flex;
+  justify-content: center;
+}
+
+
+.content1::after {
+  content: "\a";
+  white-space: pre;
+}
+
+.pr-1{
+padding-right: 15px;
+}
+        
